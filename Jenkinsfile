@@ -6,8 +6,10 @@ pipeline {
 
  stages { 
    stage ('Call Script') {
+       steps {
        sh 'chmod +x scripts/testingInputs.sh'
        sh 'scripts/testingInputs.sh ${YOUR_ARG}'
         }
+      }
     }
 }
