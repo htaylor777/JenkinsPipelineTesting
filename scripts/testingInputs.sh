@@ -2,7 +2,7 @@
 
 export ARG=$1
 
-if [ $# ne 1 ]; then
+if [ $# -ne 1 ]; then
    echo "One argument is required"
 else 
    echo "You typed: $ARG"
