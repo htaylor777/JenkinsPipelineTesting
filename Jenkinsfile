@@ -1,7 +1,7 @@
 pipeline {
     agent any
     parameters {
-       string(name: 'YOUR_ARG', defaultvalue:  'God is the Lord and Creator of all' )
+       string(name: 'YOUR_ARG', defaultValue:  'God is the Lord and Creator of all' )
    }
 
  stages { 
